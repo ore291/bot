@@ -1,6 +1,6 @@
-import { TelegramClient } from "./node_modules/telegram/index.js";
-import { StringSession } from './node_modules/telegram/sessions/index.js';
-import input from "./node_modules/input/dist/lib/index.js";
+import { TelegramClient } from "telegram";
+import { StringSession } from 'telegram/sessions';
+import input from "input";
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import express from 'express';
