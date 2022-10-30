@@ -1,6 +1,6 @@
-import { TelegramClient } from "telegram";
-import { StringSession } from "telegram/sessions";
-import input from "input";
+const { TelegramClient } = require('telegram')
+const { StringSession } = require('telegram/sessions')
+const input = require('input')
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import express from 'express';
