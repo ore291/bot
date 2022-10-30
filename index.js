@@ -32,7 +32,7 @@ const port = 5000; //Save the port number where your server will be listening
 const bot = new TelegramBot(token, { polling: true });
 app.use(express.urlencoded({ extended: true }));
 
-// ore
+// or
 
 // parse application/json
 app.use(express.json());
