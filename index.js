@@ -1,5 +1,5 @@
 import { TelegramClient } from "telegram";
-import { StringSession } from 'telegram/sessions';
+import { StringSession } from "telegram/sessions";
 import input from "input";
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
