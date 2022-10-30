@@ -32,6 +32,8 @@ const port = 5000; //Save the port number where your server will be listening
 const bot = new TelegramBot(token, { polling: true });
 app.use(express.urlencoded({ extended: true }));
 
+// ore
+
 // parse application/json
 app.use(express.json());
 // const { Client } = require('tlg')
