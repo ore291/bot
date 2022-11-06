@@ -22,10 +22,8 @@
     "input": "^1.0.1",
     "telegram": "^2.8.2"
   },
-  "devDependencies": {
-    
-  },
+  "devDependencies": {},
   "engines": {
-    "node": "16.13.1"
+    "node": "^16.13.1"
   }
 }

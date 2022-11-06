@@ -10,7 +10,7 @@ const token = `5286214118:AAGETl07k0-beB7RHuMREfIAkNnhY8WBvVM`;
 import { MongoClient } from "mongodb";
 import { mongoose } from "mongoose";
 const url =
-  "mongodb://bot:ddddee6125919fe090550f0d7e31b88f@dokku-mongo-bot:27017/bot";
+  "mongodb://bot_db:e335c3830d34930d6f1b815fcfeb493f@dokku-mongo-bot-db:27017/bot_db";
 const client = new MongoClient(url);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
